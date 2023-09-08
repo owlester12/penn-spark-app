@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selected{
+  background-color: #9c0404;
+  border: 1px solid #9c0404;
+  color: white; 
+
+}
+.unselected{
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
+}
+
+.filt{
+  margin: 8px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 15px;
+  display: flex;
+}
+
+.remBut{
+  background-color: #041d5b;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: 1px solid #041d5b;
+  margin: 5px 0px;
+
+}
+
+.courseHead{
+  font-size: 15px;
+
+}
+.courseID{
+  font-weight: bold;
+  padding: 2px;
+  font-size: 15px;
+
+}
+.title{
+  padding: 2px;
+}
+.course{
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+.description{
+  font-size: 13px;
+}
